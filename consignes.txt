@@ -1,0 +1,37 @@
+Movies ! | Consignes
+
+Étape 1 : Page d'accueil
+
+	- La page d'accueil affiche quelques dizaines de films au hasard depuis la base de données.
+	- Chaque film est présenté par son poster uniquement.
+	- Les posters sont cliquables, et mènent à la page de détails du film
+	- Au bas de la page, un bouton permet de charger de nouveaux films au hasard
+	- Pour le référencement, ajouter les attributs alt sur les images, et title sur les liens
+	- Faire apparaître le titre du film en animation au survol de la souris sur un poster.
+
+Étape 2 : Page de détails
+
+	- La page de détails affiche toutes les informations disponibles sur un seul film
+	- Le poster est affiché en plus grand, si possible
+	- Affiche le rating d'une manière graphique, par exemple avec un système d'étoiles
+
+Étape 3 : Filtre par catégorie
+
+	- Sur la page d'accueil, un formulaire permet de sélectionner une catégorie de films. 
+	- Sur soumission du formulaire, uniquement des films de cette catégorie (au hasard) sont alors affichés. 
+
+Étape 4 : Sexy URL
+
+	- au lieu d'utiliser l'identifiant dans l'URL de la page détail, utiliser le titre du film
+
+Étape 5 : Formulaire d'inscription
+
+	- Sur une nouvelle page, un formulaire permet de s'inscrire au site. 
+	- Les champs suivants sont affichés : 
+		- username
+		- email
+		- password
+		- password again
+	- Sur soumission du formulaire, les données sont validées côté serveur
+		- Si des erreurs surviennent
+			les données doivent être réinjectées dans le formulaire

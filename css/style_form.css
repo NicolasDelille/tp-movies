@@ -1,0 +1,59 @@
+body{
+	font: 16px 'Open Sans',sans-serif;
+	margin: 0;
+	background: #EBECED;
+}
+.form_container{
+	width: 600px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	background: #ccc;
+	border-radius: 5px;
+}
+header{
+	background: linear-gradient(to top, #0E0E0E,#575757);
+	margin: 0 0 10px 0;
+	width: auto;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+h1{
+	text-align: center;
+	width: 20%;
+	margin: 0 auto;
+	border: 1px solid #000;
+	border-radius: 5px;
+	background: radial-gradient(#F7E175, #DBA716);
+	text-shadow:0 0 5px #fff;
+}
+.form-group{
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.error p{
+	color: red;
+}
+legend{
+	text-align: center;
+	font-size: 2rem;
+}
+label{
+	margin-bottom: 5px;
+	display: block;
+}
+input{
+	display: block;
+}
+
+.btn{
+	border:1px solid #000;
+	border-radius: 5px;
+	background: radial-gradient(#F7E175, #DBA716);
+	text-shadow:0 0 5px #fff;
+	height: 30px;
+}
+a{
+	text-decoration: none;
+	color: #000;
+	border:none;
+}
